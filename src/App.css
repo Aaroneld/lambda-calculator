@@ -1,3 +1,11 @@
+
+button {
+
+    padding: 10% 0;
+    border-radius: 50%;
+    font-size: 125%;
+    box-shadow: 0px 4px 2px black;
+}
 .container {
     background-color: #c00025;
     width: 100%;
@@ -6,8 +14,14 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+.logo-container {
+
+    margin: 5% 0 0 6%;
+}
 .display {
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
+
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -20,3 +34,69 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.main-box {
+
+    display: flex;
+    margin: 4% 4% 2% 8%;
+}
+
+.spec-nums-container {
+
+    flex-basis: 75%;
+}
+
+.specials {
+
+    display: flex;
+}
+
+.specials button {
+    
+    flex-basis: 28%;
+    margin: 2%;
+    background: rgb(18, 67, 110);
+    border-color:  rgb(18, 67, 110);
+    color: white;
+}
+
+.numbers button:nth-child(10) {
+
+    flex-basis: 60%;
+    border-radius: 50px;
+}
+
+.operators {
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    margin-top: 1.4%;
+}
+
+.operators button {
+
+    margin-bottom: 12%; 
+    margin-left: -7%;
+    max-width: 101.633px;
+    padding: 30% 0;
+    background: rgb(18, 90, 110);
+    border-color:  rgb(18, 90, 110);
+    color: white;
+
+}
+
+.numbers {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers button {
+    
+    flex-basis: 28%;
+    margin: 2%;
+    background: rgb(18, 18, 110);
+    border-color:  rgb(18, 18, 110);
+    color: white;
+}
